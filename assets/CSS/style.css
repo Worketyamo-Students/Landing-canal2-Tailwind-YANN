@@ -8,7 +8,7 @@
     --font-family1: "Inter", serif;
     --font-family2: "IBM Plex Sans", serif;
 }
-*{
+/* *{
     padding: 0;
     margin: 0;
     border: 0;
@@ -333,7 +333,7 @@ font-family: var(--font-family1);
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Zoom et recadrage de l'image */
+    object-fit: cover; (/* Zoom et recadrage de l'image /)
     position: relative;
 }
 
@@ -977,4 +977,4 @@ hr{
     transition: transform 0.3s ease-in-out;
 }
 
-}    
+}     */
