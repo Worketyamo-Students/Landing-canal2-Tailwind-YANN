@@ -16,6 +16,7 @@
 html{
     font-size: 10px;
     overflow: none;
+    font-family: var(--font-family2);
 }
 body{
     width: 100vw;
