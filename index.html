@@ -9,83 +9,81 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="md:hidden bg-white p-4 flex justify-between items-center">
+    <header class="bg-white p-4 md:p-20 flex justify-between items-center">
         <div class="text-green-600 font-bold text-lg"><img src="assets/img/logo.svg" alt="" class=""></div>
-        <button class="text-2xl w-"><img src="assets/img/menu.svg" alt="" class="w-20"></button>
+        <button class="md:hidden text-2xl w-"><img src="assets/img/menu.svg" alt="" class="w-20"></button>
+        <ul class="nav-links hidden sm:block md:flex md:gap-12 text-3xl font-normal ">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#" class="link text-green-600 relative"><span class="relative after:absolute after:w-[6.5rem] after:h-[2px] after:bg-green-600 after:left-0 after:top-10 after:content-['']">Actuali</span>té</a></li>
+            <li><a href="#">Programme</a></li>
+            <li><a href="#">Direct</a></li>
+        </ul>
+        <button class="hidden sm:block md:bg-green-800 md:text-white text-2xl w-[15rem] h-[5rem] md:mx-4 rounded-full">Premium </button>
     </header>
 
     <!-- Section principale -->
     <main class="p-4">
-        <!-- <nav>
-            <ul class="nav-links">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#" class="link">Actualite</a></li>
-                <li><a href="#">Programme</a></li>
-                <li><a href="#">Direct</a></li>
-            </ul>
-            <button>premium </button>
-        </nav> -->
 
-        <div class="section1 flex flex-col pb-8 gap-6">
+        <div class="section1 flex flex-col md:flex-row md:gap-32 md:mx-14 pb-8 gap-6">
             <div class="relative">
-                <div class="w-full h-[30rem] bg-[url('assets/img/Fight.jpeg')] bg-cover bg-center"><div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div></div>
-                <div class="absolute flex flex-col gap-2 pt-0 -my-32 mx-[1rem] h-28 border-l-[1.5rem] border-green-600 text-white px-2">
-                    <h2 class="text-3xl font-bold w-[38rem]">Il tape les gens pour vivre, françis Ngannou</h2>
-                    <p class="text-xl">Actu du 13 décembre 2023</p>
+                <div class="w-full h-[30rem] md:w-[105rem] md:h-full md:rounded-3xl bg-[url('assets/img/Fight.jpeg')] bg-cover bg-center"><div class="absolute inset-0 bg-gradient-to-t from-black md:rounded-3xl to-transparent"></div></div>
+                <div class="absolute flex flex-col gap-2 md:gap-6 pt-0 -my-32 md:-my-[14rem] mx-[1rem] md:mx-[3rem] h-28 md:h-[10rem] border-l-[1.5rem] border-green-800 text-white px-2 md:px-6">
+                    <h2 class="text-3xl md:text-5xl font-bold w-[38rem] md:w-[60rem]">Il tape les gens pour vivre, françis Ngannou</h2>
+                    <p class="text-xl md:text-2xl ">Actu du 13 décembre 2023</p>
                 </div>
             </div>
-            <div class="side1 mx-2 flex flex-col gap-6">
-                <div class="title  h-12 pt-4 border-l-[.8rem] px-2 text-2xl font-semibold border-green-600">
-                    <p class="sign">À LA UNE DU JOUR</p>
+            <div class="side1 mx-2 md:mx-0 flex flex-col gap-6 pt-8">
+                <div class="title  h-12 md:h-16 pt-4 md:pt-4 border-l-[.8rem] md:border-l-[1.3rem] px-2 md:px-6 font-semibold border-green-800">
+                    <p class="sign text-2xl md:text-4xl ">À LA UNE DU JOUR</p>
                 </div>
-                <div class="primary flex gap-10">
-                    <img src="assets/img/world.jpg" class="rounded-3xl w-72 h-62" alt="jeunesse">
-                    <div class="txt flex flex-col justify-between">
-                        <h4 class="text-3xl font-bold">L'école primaire de melon dans le choc</h4>
-                        <p class="text-2xl w-80">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                <div class="primary flex gap-10 md:mb-10">
+                    <img src="assets/img/world.jpg" class="rounded-3xl w-72 md:w-[30rem] h-62 md:h-[20rem]" alt="jeunesse">
+                    <div class="txt flex flex-col justify-around">
+                        <h4 class="text-3xl md:text-5xl md:w-[30rem] font-bold">L'école primaire de melon dans le choc</h4>
+                        <p class="text-2xl md:text-4xl w-80 md:w-[35rem] md:font-thin">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
                     </div>
                 </div>
                 <hr class="md:hidden border-gray-800 my-4">
-                <div class="primary flex gap-10">
-                    <img src="assets/img/image.png" class="rounded-3xl w-72 h-62" alt="jeunesse">
-                    <div class="txt flex flex-col justify-between">
-                        <h4 class="text-3xl font-bold">Manifestations pour la baisse des prix </h4>
-                        <p class="text-2xl w-80">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                <div class="primary flex gap-10 md:mb-10">
+                    <img src="assets/img/image.png" class="rounded-3xl w-72 md:w-[30rem] h-62 md:h-[20rem]" alt="jeunesse">
+                    <div class="txt flex flex-col justify-around">
+                        <h4 class="text-3xl md:text-5xl md:w-[30rem] font-bold">Manifestations pour la baisse des prix </h4>
+                        <p class="text-2xl md:text-4xl w-80 md:w-[35rem]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
                     </div>
                 </div>
                 <hr class="md:hidden border-gray-800 my-4">
-                <div class="primary flex gap-10">
-                    <img src="assets/img/town.jpg" class="rounded-3xl w-72 h-62" alt="jeunesse">
-                    <div class="txt flex flex-col justify-between">
-                        <h4 class="text-3xl font-bold">Bientot un métro dans la capitale </h4>
-                        <p class="text-2xl w-80">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                <div class="primary flex gap-10 md:mb-10">
+                    <img src="assets/img/town.jpg" class="rounded-3xl w-72 md:w-[30rem] h-62 md:h-[20rem]" alt="jeunesse">
+                    <div class="txt flex flex-col justify-around">
+                        <h4 class="text-3xl md:text-5xl md:w-[30rem] font-bold">Bientot un métro dans la capitale </h4>
+                        <p class="text-2xl md:text-4xl w-80 md:w-[35rem]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
                     </div>
                 </div>
             </div>
         </div>
-    <div class="slider overflow-x-auto p-6">
-        <section class="images flex gap-14 w-[90rem]">
-            <div class="vincent">
-                <img src="assets/img/img-paulbiya.svg" alt="" class="img ">
+    <div class="slider overflow-x-auto md:overflow-x-hidden p-6 md:p-12">
+        <section class="images flex md:justify-between gap-14 w-[90rem] md:w-full">
+            <div class="vincent ">
+                <img src="assets/img/img-paulbiya.svg" alt="" class="img md:w-[50rem] md:h-[50rem]">
                 <div class="my-6">
-                    <h4 class="mb-6 text-green-800 text-2xl italic">Mardi,10 janvier 2025 10:30</h4>
-                    <p class="text-3xl font-semibold">Lutte contre le travail des <br> enfants, l'UNESCO reagit</p>
+                    <h4 class="mb-6 md:mb-4 text-green-800 text-2xl md:text-3xl italic">Mardi,10 janvier 2025 10:30</h4>
+                    <p class="text-3xl md:text-4xl font-semibold">Lutte contre le travail des <br> enfants, l'UNESCO reagit</p>
                 </div>
             </div>
 
-            <div class="vincent">
-                <img src="assets/img/image-enfants.svg" alt="" class="img">
+            <div class="vincent ">
+                <img src="assets/img/image-enfants.svg" alt="" class="img md:w-[50rem] md:h-[50rem]">
                 <div class="my-6">
-                    <h4 class="mb-6 text-green-800 text-2xl italic">Mardi,10 janvier 2025 10:30</h4>
-                    <p class="text-3xl font-semibold">The game of throne, qui <br> sera le prochain</p>
+                    <h4 class="mb-6 text-green-800 text-2xl md:text-3xl italic">Mardi,10 janvier 2025 10:30</h4>
+                    <p class="text-3xl md:text-4xl font-semibold">The game of throne, qui <br> sera le prochain</p>
                 </div>
             </div>
 
-            <div class="vincent">
-                <img src="assets/img/vincent.svg" alt="" class="img">
+            <div class="vincent ">
+                <img src="assets/img/vincent.svg" alt="" class="img md:w-[50rem] md:h-[50rem]">
                 <div class="my-6">
-                    <h4 class="mb-6 text-green-800 text-2xl italic">Mardi,10 janvier 2025 10:30</h4>
-                    <p class="text-3xl font-semibold">Le lion sort de sa cage et <br> s'exprime la CAN</p>
+                    <h4 class="mb-6 text-green-800 text-2xl md:text-3xl italic">Mardi,10 janvier 2025 10:30</h4>
+                    <p class="text-3xl md:text-4xl font-semibold">Le lion sort de sa cage et <br> s'exprime la CAN</p>
                 </div>
             </div>
 
