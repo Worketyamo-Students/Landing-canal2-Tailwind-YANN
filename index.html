@@ -164,15 +164,18 @@
         </div>
     </div>
 
-    <section class="comment flex flex-col-reverse gap-10 mb-16">
-        <div class="comment_texte mx-4 flex flex-col gap-6">
-            <h1 class="c_comment text-5xl text-green-800 font-bold">
+    <section class="comment flex flex-col-reverse md:flex-row md:justify-center md:items-center gap-10 md:gap-16 mb-16 ">
+        <div class="comment_texte mx-4 md:mx-60 flex flex-col gap-6 md:gap-14 ">
+            <h1 class="c_comment text-5xl md:hidden text-green-800 font-bold">
                 C' COMMENT ?
             </h1>
-            <p class="lorem text-2xl mx-2 ">
+            <h1 class="hidden sm:block c_comment text-7xl text-green-800 font-semibold">
+                c'est Comment ?
+            </h1>
+            <p class="lorem text-2xl md:text-4xl mx-2 md:w-[50rem] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             </p>
-            <p class="canal_international text-2xl mx-2">
+            <p class="canal_international text-2xl md:text-4xl mx-2">
                 Du lundi au vendredi sur canal2 international 
             </p>    
             <div class="social-icons flex gap-14 mx-2 mt-4">
@@ -183,7 +186,7 @@
             </div>
         </div>
         <div class="comment_imges w-full mx-4">
-            <img src="assets/img/comment.jpeg" alt="" class="img_comment w-[38rem] h-[22rem] object-cover">
+            <img src="assets/img/comment.jpeg" alt="" class="img_comment w-[38rem] md:w-[80rem] h-[22rem] md:h-[50rem] md:rounded-3xl object-cover">
         </div>
     </section>
 
