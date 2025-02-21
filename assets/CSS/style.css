@@ -23,6 +23,9 @@ body{
     height: 100vh;
     overflow-x: hidden;
 }
+header{
+    font-family: var(--font-family1);
+}
 .absolute{
     font-family: var(--font-family2);
 }
